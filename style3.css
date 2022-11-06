@@ -1,0 +1,38 @@
+div{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: blueviolet;
+  animation-name: square;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  position: relative;
+}
+@keyframes square {
+  0%{
+    background-color: blueviolet;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: red;
+    left: 500px;
+    top: 0px;
+  }
+  50% {
+    background-color: black;
+     left: 500px;
+     top: 500px;
+    }
+  75% {
+    background-color: aqua;
+    top: 500px;
+    left: 0px;
+  }
+  100% {
+    background-color: yellow;
+    top: 0%;
+    left: 0%;
+  }
+
+}

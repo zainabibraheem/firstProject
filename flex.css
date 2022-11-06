@@ -1,0 +1,22 @@
+.container {
+  width: 800px;
+  height: 500px;
+  background-color: orange;
+  margin: 80 auto;
+  border-radius: 10px;
+  display: flex;
+  //flex-direction: row;
+  //flex-wrap: wrap;
+  flex-flow:row wrap;
+  justify ::content
+
+}
+
+div div {
+width: 100px;
+height: 60px;
+background-color: aqua;
+padding: 10px;
+text-align: center;
+box-shadow: 1px 2px 5px black;
+}
